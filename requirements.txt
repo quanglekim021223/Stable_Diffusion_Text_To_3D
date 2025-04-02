@@ -1,0 +1,37 @@
+# Core libraries
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scipy>=1.8.0
+matplotlib>=3.7.0
+Pillow>=9.5.0
+
+# Stable Diffusion
+diffusers>=0.18.0
+transformers>=4.30.0
+accelerate>=0.20.0
+safetensors>=0.3.1
+
+# 3D Processing
+trimesh>=3.9.0
+pytorch3d>=0.7.0
+open3d>=0.17.0
+mediapipe>=0.10.0
+
+# NeRF implementations
+nerfstudio>=0.1.18
+
+# Utils
+tqdm>=4.65.0
+einops>=0.6.0
+
+# Additional dependencies
+opencv-python>=4.7.0
+nvdiffrast>=0.3.0
+
+# COLMAP for photogrammetry
+colmap>=3.8
+
+# Depth estimation
+timm>=0.9.0
+pytorch-lightning>=2.0.0 
